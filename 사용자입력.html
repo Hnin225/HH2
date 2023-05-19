@@ -1,0 +1,33 @@
+<html>
+
+<head>
+  <title> 사용자 입력  </title>
+</head>
+<script language="JavaScript">
+  <!--
+ function Test(msg){
+  a=prompt(msg);
+ alert("당신의 취미는"+a+"입니다.");
+ } 
+ function Test2(msg){
+  b=confirm(msg); //confirm은 확인,취소 버튼 생성 확인 true,취소 false 
+  if(b==true) //확인 누른 경우 
+ alert("가입을 환영합니다.");
+ else //취소를 누른 경우 
+ alert("다음 기회에 ");
+ } 
+ function Test3(msg){
+  c=prompt(msg);
+ alert("당신의 이름은"+c+"입니다.");
+ } 
+ --> 
+</script>
+<body>
+<h2>사용자 입력 출력</h2>
+<form>
+<input type="button" value="취미 확인 " onclick="Test('당신의 취미는 무엇입니까?')">
+<input type="button" value="회원가입확인" onclick="Test2('회원가입 하시겠습니까?')">
+<input type="radio" name="이름" onclick="Test3('당신의 이름은 무엇입니까?')">이름 입력
+</form>
+</body>
+</html>

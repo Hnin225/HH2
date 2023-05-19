@@ -1,0 +1,47 @@
+<html>
+<head><title> 빼기 </title>
+<script language="JavaScript">
+<!--
+function minus(){
+a=frm.num1.value;
+b=frm.num2.value;
+m=(a-b);
+frm.res.value=m;
+}
+
+function add(){
+c=eval(frm.num1.value);
+d=eval(frm.num2.value);
+e=(c+d);
+frm.res.value=e;
+}
+function mou(){
+f=frm.num1.value;
+g=frm.num2.value;
+t=(f*g);
+frm.res.value=t;
+}
+
+function div(){
+n=eval(frm.num1.value);
+p=eval(frm.num2.value);
+i=(n/p);
+frm.res.value=i;
+}
+-->
+
+</script>
+</head>
+
+<body>
+<form name="frm">
+첫번째 수 <input type="text" size=10 name="num1">
+두번째 수 <input type="text" size=10 name="num2"><br>
+<input type="button" value="빼기" onclick="minus()">
+<input type="button" value="더 하기" onclick="add()">
+<input type="button" value="곱하기" onclick="mou()">
+<input type="button" value="나누기" onclick="div()">
+결과는?<input type="text" size=10 name="res">
+</form>
+</body>
+</html>
